@@ -25,7 +25,7 @@ terminateScript(){
   exit 1
 }
 
-sudo wget -O - https://github.com/dmitrymolchanovky/ce/releases/download/v${version}/install.sh 
+sudo wget https://github.com/dmitrymolchanovky/ce/releases/download/v${version}/install.sh 
 chmod 755 ./install.sh
 sudo ./install.sh $version
 
