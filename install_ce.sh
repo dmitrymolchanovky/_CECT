@@ -2,7 +2,7 @@
 
 version=$1
 if [$version -eq ""]; then
-  wget -q https://github.com/heeus/ce/releases/latest/download/version
+  wget -q https://github.com/dmitrymolchanovky/ce/releases/latest/download/version
   fileVer="./version"
   version=$(cat "$fileVer")
 fi
