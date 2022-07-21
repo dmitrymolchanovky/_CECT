@@ -25,6 +25,6 @@ terminateScript(){
   exit 1
 }
 
-sudo wget -O - https://github.com/heeus/ce/releases/download/v${version}/install.sh 
+sudo wget -O - https://github.com/dmitrymolchanovky/ce/releases/download/v${version}/install.sh 
 sudo ./install.sh $version
 
